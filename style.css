@@ -1,0 +1,40 @@
+.article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .nom-article {
+    flex-grow: 1;
+  }
+  
+  .actions-article {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .bouton-quantite {
+    padding: 5px;
+    margin: 0 5px;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+  }
+  
+  .bouton-suppression {
+    background-color: red;
+    color: white;
+  }
+  
+  .bouton-favoris {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #prix-total {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
